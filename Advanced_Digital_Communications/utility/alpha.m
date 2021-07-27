@@ -1,0 +1,1 @@
+function a = alpha(s);
