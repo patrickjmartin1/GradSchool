@@ -3,8 +3,8 @@ function plot_light_cone(spacetime_event, ax_handle)
 %event
 
 %% Figure out the null lines
-t_0 = spacetime_event.t;
-x_0 = spacetime_event.x;
+t_0 = spacetime_event.x(1);
+x_0 = spacetime_event.x(2);
 
 t_right = [t_0-1000:1:t_0+1000];
 t_left = [t_0+1000:-1:t_0-1000];

@@ -9,8 +9,8 @@ for indx = 1:length(events)
 end
 grid on
 
-xlim([-800, 800])
-ylim([-800, 800])
+xlim([-200, 1500])
+ylim([-200, 400])
 % Plot the axes
 line([0,0], ylim, 'Color', 'k', 'LineWidth', 1); % Draw line for Y axis.
 line(xlim, [0,0], 'Color', 'k', 'LineWidth', 1); % Draw line for X axis.
